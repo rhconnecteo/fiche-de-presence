@@ -74,7 +74,14 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Fiche de Présence</h1>
+        <div className="header-content">
+          <a href="/" className="logo-link">
+            <img src="/immigration.png" alt="Logo Fiche de Présence" className="site-logo" />
+          </a>
+          <div className="header-text">
+            <h1>Fiche de Présence</h1>
+          </div>
+        </div>
       </header>
 
       <main className="app-main">

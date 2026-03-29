@@ -75,7 +75,6 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <h1>Fiche de Présence</h1>
-        <p>Accès aux feuilles de calcul Google Sheets</p>
       </header>
 
       <main className="app-main">
